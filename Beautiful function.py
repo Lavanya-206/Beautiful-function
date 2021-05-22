@@ -9,5 +9,6 @@ While(i>0):
     curr_dist=10-(int(n[i]+carry)
     total=total+curr_dist
     carry=1
+    i=i-1
 total=total+9
 Print(total)
