@@ -1,0 +1,13 @@
+#Beautiful function code in python#
+#code goes like this
+n=input()
+total=0
+i=len(n)-1
+carry=0
+while(i>0):
+    curr_dist=10-(int(n[i])+carry)
+    total=total+curr_dis
+    carry=1
+    i=i-1
+total=total+9
+print(total)
